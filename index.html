@@ -4,14 +4,14 @@
     <h1>baka</h1>
     <h3 style="color:green;">faaaaaaaart</h3>
     <p>mmmhm trjhkgrm hmmmhm mmmh and the fljsdfl dfnsdf ndsjkvdns to ndsfsk the fjsnkdnsd</p>
-    <input id="m" type="image" src="https://i.imgur.com/nYCjMVC.png" alt="your dad" width="100" length="500" onclick="remove()">
-    <input id="m" type="image" src="https://i.imgur.com/CFEuBh3.jpeg" alt="your dad" width="100" length="500" onclick="remove()">
+    <input id="mm" type="image" src="https://i.imgur.com/nYCjMVC.png" alt="your dad" width="100" length="500" onclick="remove('mm')">
+    <input id="c" type="image" src="https://i.imgur.com/CFEuBh3.jpeg" alt="your dad" width="100" length="500" onclick="remove('c')">
     <br>
     <a href="https://www.roblox.com/users/1279017264/profile">link to your mom</a>
 
     <script>
-        function remove() {
-            var elem = document.getElementById("m");
+        function remove(elementIdentifier) {
+            var elem = document.getElementById(elementIdentifier);
             elem.parentNode.removeChild(elem);
             var audio = new Audio("vineboom.mp3");
             audio.play();
